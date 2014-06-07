@@ -22,10 +22,6 @@ module.exports.extend = function(source, destination) {
 };
 
 module.exports.hasElems = function(object, keys) {
-	
-	console.log(keys.sort().toString());
-	console.log(Object.getOwnPropertyNames(object).sort().toString());
-	console.log(Object.getOwnPropertyNames(object).sort().toString() == keys.sort().toString());
 
 	if (keys.length === 0) {
 		return true;
