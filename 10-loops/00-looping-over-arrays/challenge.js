@@ -14,6 +14,7 @@ module.exports.splitAndLowerCaseString = function(string) {
 	return arrayOfStrings;
 };
 
+<<<<<<< HEAD
 module.exports.addIndex = function(array) {
 	var strings = [];
 	for ( i = 0; i < array.length; i++ ) {
@@ -23,3 +24,6 @@ module.exports.addIndex = function(array) {
 	return strings;
 
 };
+=======
+module.exports.addIndex = undefined;
+>>>>>>> d0c750f9fc60fd2531aff34644f40d9e91173012
