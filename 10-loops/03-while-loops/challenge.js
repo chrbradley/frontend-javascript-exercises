@@ -1,5 +1,7 @@
 module.exports.stream = function(conditional, action) {
-
+	while (conditional()) {
+		action();
+	}
 };
 
 module.exports.sumNumbers = function(array) {
